@@ -27,6 +27,11 @@ public class Main {
                     NOTE: All lower case letter assumed however it would be easy to modify for both lower
                     and upper case.
 
+                    Simply just convert to lowercase before analyzing
+
+
+
+
          */
 
         Node head1 = new Node('r');
@@ -129,6 +134,7 @@ public class Main {
 
     }
 
+    // Node Class
     static class Node {
         Node next = null;
         char data;
