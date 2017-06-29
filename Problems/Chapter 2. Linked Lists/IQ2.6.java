@@ -68,6 +68,7 @@ public class Main {
 
     }
 
+    // Method
     public static boolean isPal(Node head){
 
         if (head == null || head.next == null)
@@ -83,7 +84,7 @@ public class Main {
             count++;
         }
 
-        // Not long enough to be a palindrome
+        
         if (count < 2)
             return false;
 
