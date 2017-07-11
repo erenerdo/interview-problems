@@ -2,6 +2,18 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here\
+        /*
+
+        Question: 
+
+        Flip Bit to Win: You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to
+        find the length of the longest sequence of 1s you could create.
+
+        EXAMPLE
+        Input: 1775 (or: 11011101111)
+        Output: 8
+
+        */
 
         System.out.println(flipBit("11111011111"));
 

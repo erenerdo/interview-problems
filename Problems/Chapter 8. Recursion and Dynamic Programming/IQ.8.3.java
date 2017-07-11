@@ -6,6 +6,13 @@ public class Main {
 
         /*
 
+        Question:
+
+        Magic Index: A magic index in an array A [e ... n -1] is defined to be an index such that A[ i] =
+        i. Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in
+        array A.
+
+
         [ 0,  1,  2, 3, 4, 5, 6]
 
 
