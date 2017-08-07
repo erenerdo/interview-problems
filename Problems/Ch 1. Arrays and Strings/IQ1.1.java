@@ -21,19 +21,17 @@ public class Main {
 
     public static boolean isUnique(String s){
 
-        HashMap<Character, Character> h = new HashMap<>();
+        HashSet<Character> hashSet = new HashSet<>();
 
         for (char c : s.toCharArray()){
-            if (h.get(c) == null)
-                h.put(c,c);
 
-            else // duplicate found
+            if(hashSet.contains(c)){
                 return false;
+            }
+            hashSet.add(c);
         }
 
-        // Check complete and no duplicates
         return true;
-
 
     }
 
